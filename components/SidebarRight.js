@@ -11,6 +11,7 @@ import {
   ListItemText,
   Typography,
 } from '@mui/material';
+import Image from 'next/image';
 import React from 'react';
 
 const SidebarRight = () => {
@@ -61,22 +62,40 @@ const SidebarRight = () => {
         </Typography>
         <ImageList cols={3}>
           <ImageListItem>
-            <img src="https://images.unsplash.com/photo-1589118949245-7d38baf380d6?w=164&h=164&fit=crop&auto=format" />
+            <Image
+              alt="photo"
+              src="https://images.unsplash.com/photo-1589118949245-7d38baf380d6?w=164&h=164&fit=crop&auto=format"
+            />
           </ImageListItem>
           <ImageListItem>
-            <img src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?w=242&h=242&fit=crop&auto=format" />
+            <Image
+              alt="photo"
+              src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e?w=242&h=242&fit=crop&auto=format"
+            />
           </ImageListItem>
           <ImageListItem>
-            <img src="https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=242&h=121&fit=crop&auto=format" />
+            <Image
+              alt="photo"
+              src="https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=242&h=121&fit=crop&auto=format"
+            />
           </ImageListItem>
           <ImageListItem>
-            <img src="https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=242&h=121&fit=crop&auto=format" />
+            <Image
+              alt="photo"
+              src="https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=242&h=121&fit=crop&auto=format"
+            />
           </ImageListItem>
           <ImageListItem>
-            <img src="https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=242&h=121&fit=crop&auto=format" />
+            <Image
+              alt="photo"
+              src="https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?w=242&h=121&fit=crop&auto=format"
+            />
           </ImageListItem>
           <ImageListItem>
-            <img src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=242&h=242&fit=crop&auto=formatt" />
+            <Image
+              alt="photo"
+              src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=242&h=242&fit=crop&auto=formatt"
+            />
           </ImageListItem>
         </ImageList>
         <Typography variant="h6" fontWeight={100}>
